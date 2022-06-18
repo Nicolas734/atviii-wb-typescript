@@ -9,7 +9,7 @@ export default function BarraNavegacao(props) {
             return <></>
         } else {
             let lista = props.botoes.map(valor =>
-<li key={valor}><a onClick={(e) => props.seletorView(valor, e)}>{valor}</a></li>
+                <li key={valor}><Link to = {valor} >{valor}</Link></li>
             )
             return lista
         }
