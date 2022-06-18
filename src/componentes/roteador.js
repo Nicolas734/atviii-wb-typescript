@@ -1,7 +1,14 @@
 import { useState } from "react";
 import BarraNavegacao from "./barraNavegacao";
-import FormularioCadastroCliente from "./formularioCadastroCliente";
-import ListaClientes from "./listaClientes";
+import FormularioCadastroCliente from "./clientes/formularioCadastroCliente";
+import ListaClientes from "./clientes/listaClientes";
+import Cadastro from "./cadastros/cadastros";
+import Cliente from "./clientes/Clientes";
+import CadastroProdutos from "./produtos/cadastroProduto";
+import ListaProduto from "./produtos/listaProduto.js";
+import Produto from "./produtos/produtos";
+import CadastroServicos from "./servicos/cadastroServicos";
+import ListaServicos from "./servicos/listaServicos";
 
 export default function Roteador() {
     const [tela, setTela] = useState('Clientes')
@@ -16,15 +23,15 @@ export default function Roteador() {
         if (tela === 'Clientes') {
             return (
                 <>
-                    <BarraNavegacao seletorView={seletorView} tema="purple lighten-4" botoes={['Clientes', 'Cadastros']} />
-                    <ListaClientes tema="purple lighten-4" />
+                    <BarraNavegacao seletorView={seletorView} tema="pink lighten-2" botoes={['Clientes', 'Cadastros']} />
+                    <Produto tema="pink lighten-2" />
                 </>
             )
         } else {
             return (
                 <>
-                    <BarraNavegacao seletorView={seletorView} tema="purple lighten-4" botoes={['Clientes', 'Cadastros']} />
-                    <FormularioCadastroCliente tema="purple lighten-4" />
+                    <BarraNavegacao seletorView={seletorView} tema="pink lighten-2" botoes={['Clientes', 'Cadastros']} />
+                    <FormularioCadastroCliente tema="pink lighten-2" />
                 </>
             )
         }
