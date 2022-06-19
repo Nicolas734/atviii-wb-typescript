@@ -3,9 +3,10 @@ import 'materialize-css/dist/css/materialize.min.css'
 import '../clientes/cadastroCliente.css'
 import M from 'materialize-css'
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function ListaClientes(props) {
-    const estilo = `collection-item active ${props.tema}`
+    const estilo = `collection-item active pink lighten-2${props.tema}`
         useEffect(() => { 
                 M.AutoInit()
         }, [])
@@ -27,10 +28,10 @@ export default function ListaClientes(props) {
 
 
             <div className="collection">
-                <a className="collection-item">Cliente 1</a>
-                <a className="collection-item">Cliente 2</a>
-                <a className="collection-item">Cliente 3</a>
-                <a className="collection-item">Cliente 4</a>
+                <Link to={"/Cliente"} className="collection-item pointer">Cliente 1</Link>
+                <Link to={"/Cliente"} className="collection-item pointer">Cliente 2</Link>
+                <Link to={"/Cliente"} className="collection-item pointer">Cliente 3</Link>
+                <Link to={"/Cliente"} className="collection-item pointer">Cliente 4</Link>
             </div>
         </div>
     )

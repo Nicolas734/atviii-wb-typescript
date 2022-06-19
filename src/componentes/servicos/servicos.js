@@ -3,11 +3,8 @@ import '../clientes/cadastroCliente.css'
 import { useEffect } from 'react';
 import M from 'materialize-css'
 
-export default function Servico(props){
-    let estiloBotao = `btn waves-effect  pink lighten-2 button ${props.tema}`
-    let estilo = `collection-item active  pink lighten-2 ${props.tema}`
-
-    useEffect(() => { 
+export default function Servico(){
+    useEffect(() => {
         M.AutoInit()
     }, [])
 
@@ -21,18 +18,18 @@ export default function Servico(props){
                     <div className="collapsible-body">
 
                         <div className="input-field col s12">
-                            <input id="first_name" type="text" className="validate"/>
-                            <label className="active" htmlFor="textarea1">Descrição do serviço</label>
+                            <input id="Descricao_servico" type="text" className="validate"/>
+                            <label className="active" htmlFor="Descricao_servico">Descrição do serviço</label>
                         </div>
 
                         <div className="input-field col s12">
-                            <input id="first_name" type="text" className="validate"/>
-                            <label className="active" htmlFor="first_name">Valor do serviço</label>
+                            <input id="Valor_servico" type="text" className="validate"/>
+                            <label className="active" htmlFor="Valor_servico">Valor do serviço</label>
                         </div>
 
                         <div className="input-field col s12">
-                            <input id="first_name" type="text" className="validate"/>
-                            <label className="active" htmlFor="first_name">Código de identificação</label>
+                            <input id="Codigo_identificacao" type="text" className="validate"/>
+                            <label className="active" htmlFor="Codigo_identificacao">Código de identificação</label>
                         </div>
 
                     </div>
@@ -41,7 +38,7 @@ export default function Servico(props){
 
             <div className="row">
                 <div className="col s12 center">
-                    <button className={estiloBotao} type="submit" name="action">Atualizar
+                    <button className="btn waves-effect pink lighten-2 button" type="submit" name="action">Atualizar
                     </button>
                 </div>
             </div>

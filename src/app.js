@@ -5,7 +5,7 @@ import AppRoutes from "./componentes/routes/router"
 export const App = () => {
     return(
         <BrowserRouter>
-            <BarraNavegacao tema="pink lighten-2" botoes={['Clientes', 'Cadastros', 'Teste']}/>
+            <BarraNavegacao tema="pink lighten-2" botoes={['Home','Produtos','Servicos','Clientes']}/>
             <AppRoutes/>
         </BrowserRouter>
     )

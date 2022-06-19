@@ -1,7 +1,9 @@
-import 'materialize-css/dist/css/materialize.min.css'
-import "../produtos/cadastroProduto.css"
+import 'materialize-css/dist/css/materialize.min.css';
+import "../produtos/cadastroProduto.css";
 import { useEffect } from 'react';
-import M from 'materialize-css'
+import M from 'materialize-css';
+import { Link } from 'react-router-dom';
+
 
 export default function ListaProduto(props){
     let estilo = `collection-item active  pink lighten-2 ${props.tema}`
@@ -12,7 +14,6 @@ export default function ListaProduto(props){
 
         return (
             <div className="containerProd">
-
                 <div className="input-field col s12 opcao">
                     <select >
                         <option  value="">Opções</option>
@@ -22,10 +23,10 @@ export default function ListaProduto(props){
                 </div>
 
                 <div className="collection">
-                    <a className="collection-item">Produto 1</a>
-                    <a className="collection-item">Produto 2</a>
-                    <a className="collection-item">Produto 3</a>
-                    <a className="collection-item">Produto 4</a>
+                    <Link to={"/produto"} className="collection-item pointer">Produto 1</Link>
+                    <Link to={"/produto"} className="collection-item pointer">Produto 2</Link>
+                    <Link to={"/produto"} className="collection-item pointer">Produto 3</Link>
+                    <Link to={"/produto"} className="collection-item pointer">Produto 4</Link>
                 </div>
             </div>
         )
