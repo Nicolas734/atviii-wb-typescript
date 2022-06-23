@@ -1,6 +1,6 @@
 import 'materialize-css/dist/css/materialize.min.css'
 import '../clientes/cadastroCliente.css'
-import { useEffect } from 'react';
+import { useEffect } from 'react'; 
 import M from 'materialize-css'
 
 export default function Produto(props){
@@ -15,7 +15,7 @@ export default function Produto(props){
                     <ul className="collapsible popout">
                         {/* produtos */}
                         <li>
-                            <div className="collapsible-header"><i className="material-icons">shopping_cart</i>Produtos</div>
+                            <div className="collapsible-header home"><i className="material-icons">info_outline</i>Informações</div>
                             <div className="collapsible-body">
                                     
                                 <div className="input-field col s12">

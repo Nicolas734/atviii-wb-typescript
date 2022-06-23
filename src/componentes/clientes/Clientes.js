@@ -15,7 +15,7 @@ export default function Cliente(){
                     <ul className="collapsible popout">
                         <li>
                             {/* Cliente */}
-                            <div className="collapsible-header"><i className="material-icons">person</i>Dados Pessoais</div>
+                            <div className="collapsible-header home"><i className="material-icons">person</i>Dados Pessoais</div>
                             <div className="collapsible-body">
                                 <div className="row">
                                 <div className="input-field col s12">

@@ -14,7 +14,7 @@ export default function Servico(){
             <ul className="collapsible popout">
                 {/* Serviços */}
                 <li>
-                    <div className="collapsible-header"><i className="material-icons">work</i>Serviços</div>
+                    <div className="collapsible-header home"><i className="material-icons">work</i>Informações do Serviço</div>
                     <div className="collapsible-body">
 
                         <div className="input-field col s12">

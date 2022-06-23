@@ -15,19 +15,19 @@ export default function ListaClientes(props) {
 
         <div className="containerCli nomeCli ">
 
-            <div className="input-field col s12 opcao">
+            <h2>Listagem de Clientes</h2>
+
+            <div className="input-field col s12 opcoes">
                 <select>
-                    <option  value="">Opções</option>
-                    <option value="1">10 clientes que mais consumiram (quantidade)</option>
-                    <option value="2">Clientes por gênero</option>
-                    <option value="3">10 cliente que menos consumiram</option>
-                    <option value="4">5 clientes que mais consumiram (valor)</option>
+                <option value="" disabled>Listar clientes por genero</option>
+                    <option value="1">Todos</option>
+                    <option value="2">Masculino</option>
+                    <option value="3">Feminino</option>
+                    <option value="4">Não Informado</option>
                 </select>
             </div>
 
-
-
-            <div className="collection">
+            <div className="collection home">
                 <Link to={"/Cliente"} className="collection-item pointer">Cliente 1</Link>
                 <Link to={"/Cliente"} className="collection-item pointer">Cliente 2</Link>
                 <Link to={"/Cliente"} className="collection-item pointer">Cliente 3</Link>

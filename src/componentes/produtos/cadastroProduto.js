@@ -7,6 +7,7 @@ export default function CadastroProdutos(){
     return(
         <div className="containerProd">
                 <div className="row ">
+                    <h4>Cadastro de Produto</h4>
                     <form className="col s12 formProd">
                         <div className="row">
                             <div className="input-field col s6 ">
@@ -20,23 +21,18 @@ export default function CadastroProdutos(){
                         </div>
 
                         <div className="row">
-                            <div className="input-field col s6 ">
-                                <input id="Categoria_produto" type="text" className="validate" />
-                                <label htmlFor="Categoria_produto">Categoria do produto</label>
-                            </div>
+
                             <div className="input-field col s6">
                                 <input id="Valor_produto" type="text" className="validate" />
                                 <label htmlFor="Valor_produto">Valor do produto</label>
                             </div>                           
-                        </div>
-
-                        <div className="row">
                             <div className="input-field col s6 ">
                                 <input id="Codigo__indentificação_produto" type="text" className="validate" />
-                                <label htmlFor="Codigo__indentificação_produto">Código de indentificação do produto</label>
+                                <label htmlFor="Codigo__indentificação_produto">Código de identificação do produto</label>
                             </div>
-
                         </div>
+
+
                         
                         <div className="row">
                             <div className="col s12 center">

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import BarraNavegacao from "./barraNavegacao";
-import FormularioCadastroCliente from "./clientes/formularioCadastroCliente";
+import CadastroCliente from "./clientes/cadastroCliente";
 import ListaClientes from "./clientes/listaClientes";
 import Cadastro from "./cadastros/cadastros";
 import Cliente from "./clientes/Clientes";
@@ -31,7 +31,7 @@ export default function Roteador() {
             return (
                 <>
                     <BarraNavegacao seletorView={seletorView} tema="pink lighten-2" botoes={['Clientes', 'Cadastros']} />
-                    <FormularioCadastroCliente tema="pink lighten-2" />
+                    <CadastroCliente tema="pink lighten-2" />
                 </>
             )
         }

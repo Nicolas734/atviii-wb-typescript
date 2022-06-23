@@ -5,6 +5,7 @@ export default function CadastroServicos(){
         return (
             <div className="containerServ">
                 <div className="row ">
+                <h4>Cadastro de Serviço</h4>
                     <form className="col s12 formServ ">
                         <div className="row">
                             <div className="input-field col s6 ">

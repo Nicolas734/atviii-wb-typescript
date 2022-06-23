@@ -14,15 +14,10 @@ export default function ListaProduto(props){
 
         return (
             <div className="containerProd">
-                <div className="input-field col s12 opcao">
-                    <select >
-                        <option  value="">Opções</option>
-                        <option value="1">Produtos mais consumidos</option>
-                        <option value="2">Produtos mais consumidos (gênero) </option>
-                    </select>
-                </div>
 
-                <div className="collection">
+                <h2>Listagem dos Produtos</h2>
+
+                <div className="collection home">
                     <Link to={"/produto"} className="collection-item pointer">Produto 1</Link>
                     <Link to={"/produto"} className="collection-item pointer">Produto 2</Link>
                     <Link to={"/produto"} className="collection-item pointer">Produto 3</Link>

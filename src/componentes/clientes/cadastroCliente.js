@@ -1,10 +1,11 @@
 import 'materialize-css/dist/css/materialize.min.css'
 import "../clientes/cadastroCliente.css"
 
-export default function FormularioCadastroCliente(){
+export default function CadastroCliente(){
     return (
-        <div className="container">
+        <div className="containerCli">
                 <div className="row ">
+                <h4>Cadastro do Cliente</h4>
                     <form className="col s12 formCli">
                         <div className="row">
                             <div className="input-field col s6 ">
