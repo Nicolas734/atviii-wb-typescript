@@ -39,8 +39,8 @@ export default function Listagens(){
                                     <tr>
                                         <td>1</td>
                                         <td>Alvin</td>
-                                        <td>Eclair</td>
-                                        <td>$0.87</td>
+                                        <td>787.896.157-98</td>
+                                        <td>(012) 99785-9878</td>
                                     </tr>                          
                                     </tbody>
                                 </table>
@@ -65,8 +65,8 @@ export default function Listagens(){
                                     <tr>
                                         <td>1</td>
                                         <td>Alvin</td>
-                                        <td>Eclair</td>
-                                        <td>$0.87</td>
+                                        <td>787.896.157-98</td>
+                                        <td>(012) 99785-9878</td>
                                     </tr>                          
                                     </tbody>
                                 </table>
@@ -91,8 +91,8 @@ export default function Listagens(){
                                     <tr>
                                         <td>1</td>
                                         <td>Alvin</td>
-                                        <td>Eclair</td>
-                                        <td>$0.87</td>
+                                        <td>787.896.157-98</td>
+                                        <td>(012) 99785-9878</td>
                                     </tr>                          
                                     </tbody>
                                 </table>
@@ -114,10 +114,15 @@ export default function Listagens(){
                                     </thead>
                                     <tbody>
                                     <tr>
-                                        <td>Alvin</td>
-                                        <td>Eclair</td>
-                                        <td>$0.87</td>
-                                    </tr>                          
+                                        <td>1</td>
+                                        <td>Pente</td>
+                                        <td>R$ 15.00</td>
+                                    </tr> 
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Corte de Cabelo</td>
+                                        <td>R$ 50.00</td>
+                                    </tr>                                            
                                     </tbody>
                                 </table>
                             </div>
@@ -139,10 +144,15 @@ export default function Listagens(){
                                     </thead>
                                     <tbody>
                                     <tr>
-                                        <td>Alvin</td>
-                                        <td>Eclair</td>
-                                        <td>$0.87</td>
-                                    </tr>                          
+                                        <td>1</td>
+                                        <td>Pente</td>
+                                        <td>R$ 15.00</td>
+                                    </tr> 
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Corte de Cabelo</td>
+                                        <td>R$ 50.00</td>
+                                    </tr>         
                                     </tbody>
                                 </table>
                             </div>
@@ -159,10 +169,15 @@ export default function Listagens(){
                                     </thead>
                                     <tbody>
                                     <tr>
-                                        <td>Alvin</td>
-                                        <td>Eclair</td>
-                                        <td>$0.87</td>
-                                    </tr>                          
+                                        <td>1</td>
+                                        <td>Pente</td>
+                                        <td>R$ 15.00</td>
+                                    </tr> 
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Corte de Cabelo</td>
+                                        <td>R$ 50.00</td>
+                                    </tr>  
                                     </tbody>
                                 </table>
                             </div>
@@ -179,10 +194,15 @@ export default function Listagens(){
                                     </thead>
                                     <tbody>
                                     <tr>
-                                        <td>Alvin</td>
-                                        <td>Eclair</td>
-                                        <td>$0.87</td>
-                                    </tr>                          
+                                        <td>1</td>
+                                        <td>Pente</td>
+                                        <td>R$ 15.00</td>
+                                    </tr> 
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Corte de Cabelo</td>
+                                        <td>R$ 50.00</td>
+                                    </tr>        
                                     </tbody>
                                 </table>
                             </div>
