@@ -13,4 +13,19 @@ Para  este  pré-projeto,  deve-se  utilizar  as  mesmas  bibliotecas, citadas  
 |Natália Bessa de Moura|[Linkedin](https://www.linkedin.com/in/natalia-bessa-59b671220/) | [Github](https://github.com/lirabessa)|
 |Nicolas Lima de Holanda Galindo|[Linkedin](https://www.linkedin.com/in/nicolas-lima-2a75a3220/) | [Github](https://github.com/Nicolas734)|
 |Raniel Francisco Santos de Paula|[Linkedin](https://www.linkedin.com/in/raniel-santos-204878222/)| [Github](https://github.com/Raniel-Santos)|
+
   
+ <h2> ⛏️ Para executar a aplicação</h2>
+  
+  Para executar a aplicação, certifique-se de ter instalado o NodeJs em seu computador:
+- Faça o clone do repositório:
+```
+git clone https://github.com/Nicolas734/atviii-wb-typescript.git
+```
+- Agora instale as dependências do projeto:
+``` 
+npm install
+``` 
+- Execute a aplicação pelo seguinte comando:
+```
+npm start  
