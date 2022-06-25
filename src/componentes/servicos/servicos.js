@@ -2,6 +2,7 @@ import 'materialize-css/dist/css/materialize.min.css'
 import '../clientes/cadastroCliente.css'
 import { useEffect } from 'react';
 import M from 'materialize-css'
+import { Link } from 'react-router-dom';
 
 export default function Servico(){
     useEffect(() => {
@@ -38,7 +39,11 @@ export default function Servico(){
 
             <div className="row">
                 <div className="col s12 center">
-                    <button className="btn waves-effect pink lighten-2 button" type="submit" name="action">Atualizar
+                <Link to={`/AtualizaServico`}>
+                    <button className="btn waves-effect  pink lighten-2 button botaoAtualiza" type="submit" name="action">Atualizar
+                    </button>
+                    </Link>
+                    <button className="btn waves-effect  pink lighten-2 button" type="submit" name="action">Remover Cliente
                     </button>
                 </div>
             </div>

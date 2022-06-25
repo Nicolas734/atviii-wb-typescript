@@ -15,14 +15,12 @@ export default function ListaServicos(props){
 
         return (
             <div className="containerServ">
-
                 <h2>Listagem dos Serviços</h2>
-
                 <div className="collection home">
-                    <Link to={"/Servico"} className="collection-item pointer">Serviços 1</Link>
-                    <Link to={"/Servico"} className="collection-item pointer">Serviços 2</Link>
-                    <Link to={"/Servico"} className="collection-item pointer">Serviços 3</Link>
-                    <Link to={"/Servico"} className="collection-item pointer">Serviços 4</Link>
+                    <Link to = {'/Servico'} className="collection-item">Serviços 1</Link>
+                    <Link to = {'/Servico'} className="collection-item">Serviços 2</Link>
+                    <Link to = {'/Servico'} className="collection-item">Serviços 3</Link>
+                    <Link to = {'/Servico'} className="collection-item">Serviços 4</Link>
                 </div>
             </div>
         )

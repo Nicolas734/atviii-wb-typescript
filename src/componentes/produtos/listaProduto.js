@@ -1,8 +1,8 @@
 import 'materialize-css/dist/css/materialize.min.css';
 import "../produtos/cadastroProduto.css";
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import M from 'materialize-css';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 
 export default function ListaProduto(props){
@@ -14,14 +14,12 @@ export default function ListaProduto(props){
 
         return (
             <div className="containerProd">
-
                 <h2>Listagem dos Produtos</h2>
-
                 <div className="collection home">
-                    <Link to={"/produto"} className="collection-item pointer">Produto 1</Link>
-                    <Link to={"/produto"} className="collection-item pointer">Produto 2</Link>
-                    <Link to={"/produto"} className="collection-item pointer">Produto 3</Link>
-                    <Link to={"/produto"} className="collection-item pointer">Produto 4</Link>
+                    <Link to = {'/Produto'} className="collection-item">Produto 1</Link>
+                    <Link to = {'/Produto'} className="collection-item">Produto 2</Link>
+                    <Link to = {'/Produto'} className="collection-item">Produto 3</Link>
+                    <Link to = {'/Produto'} className="collection-item">Produto 4</Link>
                 </div>
             </div>
         )

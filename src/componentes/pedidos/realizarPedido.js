@@ -11,38 +11,38 @@ export default function RealizarPedido(){
 
     return(
         <div className='container'>
-            <h3 className='title'>Realizar Pedido</h3>
+        <h3 className='title'>Realizar Pedidos</h3>
             <form className="col s12 formCli">
-                    <div className="row">
-                        <div className="input-field">
-                            <input id="CPF" type="text" className="validate" />
-                            <label htmlFor="CPF">Digite o CPF do cliente</label>
-                        </div>
-                    </div>
-
+                <div className="row">
                     <div className="input-field col s12 opcoes">
-                        <select multiple>
-                        <option value="" disabled>Selecione o Produto</option>
-                            <option value="1">Pente</option>
-                            <option value="2">Tinta de Cabelo</option>
+                        <select>
+                            <option value="0">Selecione o Cliente</option>
+                           
                         </select>
                     </div>
+                </div>
 
-                    <div className="input-field col s12 opcoes">
-                        <select multiple>
-                        <option value="" disabled>Selecione o Serviço</option>
-                            <option value="1">Corte de Cabelo</option>
-                            <option value="2">Tratamento Capilar</option>
-                        </select>
-                    </div>
+                <div className="input-field col s12 opcoes">
+                    <select>
+                        <option value="0">Selecione o Produto</option>
+                       
+                    </select>
+                </div>
 
-                    <div className="row">
-                        <div className="col s12 center">
-                            <button className="btn waves-effect  pink lighten-2 button" type="submit" name="action">Realizar Pedido
-                            </button>
-                        </div>
+                <div className="input-field col s12 opcoes">
+                    <select>
+                    <option value="0">Selecione o Serviço</option>
+                 
+                    </select>
+                </div>
+
+                <div className="row">
+                    <div className="col s12 center">
+                        <button className="btn waves-effect  pink lighten-2 button" type="submit" name="action">Realizar Pedido
+                        </button>
                     </div>
-            </form>
-        </div>
+                </div>
+        </form>
+    </div>
     )
 }
